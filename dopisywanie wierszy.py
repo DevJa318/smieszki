@@ -4,10 +4,10 @@
 import os
 
 folder = "www.dni.gov"
-Photon = "/home/devja3128/PROGRAMOWANIE/Photon"
-zapis = "/home/devja3128/study/webscriping/"
+Ph**** = "/home/devja3128/PROGRAMOWANIE/Ph****"
+zapis = "/home/devja3128/study/webscraping/"
 
-#adres = '{}/{}/{}'.format(Photon,folder,nazwa_pliku)
+#adres = '{}/{}/{}'.format(Ph****,folder,nazwa_pliku)
 #print(adres)
 
 def sprawdzenie_folderu_zapisu(zapis, folder):
@@ -29,7 +29,7 @@ nazwa_pliku = "files.txt"
 def dopisywanie(folder, nazwa_pliku, dodaj):
 # otwiera plik, pobiera linie, dopisuje tekst + linie do innego pliku
 
-    plik = open('/home/devja3128/Photon/{}/{}'.format(folder,nazwa_pliku), 'r+')
+    plik = open('/home/devja3128/Ph****/{}/{}'.format(folder,nazwa_pliku), 'r+')
     file = open('/home/devja3128/study/webscriping/{}/{}'.format(folder, nazwa_pliku), 'a+')
 
 
